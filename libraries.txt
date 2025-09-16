@@ -3,3 +3,5 @@ rhdf5
 tidyr
 dplyr
 arrow
+ggplot2
+maps
