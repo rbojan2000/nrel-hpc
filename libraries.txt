@@ -5,3 +5,6 @@ dplyr
 arrow
 ggplot2
 maps
+caret
+glmnet
+ranger
