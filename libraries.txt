@@ -8,3 +8,4 @@ maps
 caret
 glmnet
 ranger
+kernlab
