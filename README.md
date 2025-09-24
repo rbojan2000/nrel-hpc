@@ -1,12 +1,21 @@
 # NREL HPC
-- Projekat ....
+
+## O projektu
+- Analiza podataka National Solar Radiation Database (NSRDB) - [NREL](https://nsrdb.nrel.gov/) Portorika za 2017. godinu.
+
+- Redoslijed čitanja:
+   1. [data_preparation.ipynb](notebooks/data_preparation.ipynb) Notebook
+   2. [exploratory_analysis.ipynb](notebooks/exploratory_analysis.ipynb) Notebook
+   3. [classification.ipynb](notebooks/classification.ipynb) Notebook
+   4. [clusterization.ipynb](notebooks/clusterization.ipynb) Notebook
 
 <br>
 
-
-## Sadrzaj:
- 1. [data_preparation.ipynb](notebooks/data_preparation.ipynb) Notebook
-
+## Korišćene tehnologije
+- **R**
+- **Apache Arrow** - Čitanje Parquet fajlova
+- **ggplot2** - Vizualizacija
+- **caret** - Mašinsko učenje
 
 <br>
 
@@ -22,7 +31,7 @@
    - Pokazuje koliko energije od Sunca dospijeva na površinu od 1 m² u određenom trenutku.
 
 3. **Tipovi solarne iradijanse**  
-   Sunčeva energija dospeva do površine Zemlje na različite načine, pa razlikujemo tri osnovna tipa iradijanse:
+   Sunčeva energija dospijeva do površine Zemlje na različite načine, pa razlikujemo tri osnovna tipa iradijanse:
 
    1. **Difuzna horizontalna iradijansa (DHI)**  
      *Engl. Diffuse Horizontal Irradiance*  
@@ -31,7 +40,7 @@
    2. **Direktna normalna iradijansa (DNI)**  
      *Engl. Direct Normal Irradiance*  
       - Dio Sunčevog zračenja koji dolazi direktno od Solarnog diska, bez raspršivanja.
-      - Mjereni se na površini koja je okomita (normalna) na Sunčeve zrake.
+      - Mjeri se na površini koja je okomita (normalna) na Sunčeve zrake.
 
    3. **Globalna horizontalna iradijansa (GHI)**  
      *Engl. Global Horizontal Irradiance*  
